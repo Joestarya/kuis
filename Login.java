@@ -29,8 +29,8 @@ class Login extends JFrame{
         
         setVisible(true);
    
-        if(usernameField = "arya" || passwordField = "196"){   
-        loginButton.addActionListener(e -> new PlayerSatu("Login", this));
+        */if(usernameField = "arya" || passwordField = "196"){   
+        loginButton.addActionListener(e -> new PlayerSatu("Login", this));*/
         }
             }
     
