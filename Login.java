@@ -18,17 +18,22 @@ class Login extends JFrame{
         usernameField = new JTextField();
         add(usernameField);
         
+        
         add(new JLabel("Password: "));
         passwordField = new JTextField();
         add(passwordField);
         
         
         JButton loginButton = new JButton("Login");
-        loginButton.addActionListener(e -> new PlayerSatu("Login", this));
         add(loginButton);
         
         setVisible(true);
    
+        if(usernameField = "arya" || passwordField = "196"){   
+        loginButton.addActionListener(e -> new PlayerSatu("Login", this));
+        }
             }
+    
+    
         }
     
